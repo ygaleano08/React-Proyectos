@@ -1,0 +1,29 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  display: block;
+}
+
+.form {
+  padding: 1em 0em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 10px 5px 5px grey;
+  border: 1px solid gray;
+  width: 300px;
+  background-color: cornflowerblue;
+  color: white;
+}
+
+.form > form > input {
+  margin-bottom: 1em;
+  padding: 8px 15px;
+  border-radius: 4px;
+  border: solid 1px #000;
+}
+
+.results {
+  width: 300px;
+}
